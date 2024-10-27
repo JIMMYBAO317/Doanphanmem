@@ -32,7 +32,7 @@
 }
 
 .btn {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 500;
 }
 
@@ -53,7 +53,7 @@ tr {
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 5rem;
-  color: #09599b;
+  color: #005AAB;
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3);
 }
 .hide {
@@ -62,7 +62,7 @@ tr {
 
 .data {
   float: right;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .sort_selected::after {
@@ -98,5 +98,5 @@ tr {
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3);
   font-size: 5rem;
   font-weight: bolder;
-  color: #0b5592;
+  color: #005AAB;
 }

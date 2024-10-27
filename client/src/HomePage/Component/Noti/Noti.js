@@ -60,7 +60,7 @@ const SendRep_btn = styled.button`
   opacity: 0.9;
   width: 15%;
   border: none;
-  background-color: rgb(22, 82, 150);
+  background-color: #005AAB;
   color: white;
   transition: all 0.3s ease;
   border-radius: 0 0 5px 0;

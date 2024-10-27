@@ -29,7 +29,7 @@ const _Button = styled.button`
   width: 260px;
   margin-left: 70px;
   height: 40px;
-  background-color: #2573b3;
+  background-color: #005AAB;
   color: white;
   border: none;
   border-radius: 10px;
@@ -48,14 +48,14 @@ const Icon = styled.i`
   border-bottom: 2px solid #09599b;
   margin-left: 18%;
   // margin-right: 5px;
-  color: #2573b3;
+  color: #005AAB;
 `;
 const Title = styled.p`
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
   font-size: 3rem;
-  color: #2573b3;
+  color: #005AAB;
   padding: 20px 0px 20px 0px;
 `;
 const Title1 = styled.p`
@@ -79,7 +79,7 @@ const Form = styled.form`
   height: 500px;
   margin-top: 100px;
   background-color: white;
-  margin-left: 30%;
+  margin-left: 70%;
   border-radius: 60px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `;
@@ -87,14 +87,15 @@ const Input_container = styled.div`
   padding: 0 0 10px 0;
 `;
 const Uet_logo = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 100px;   
   margin-left: 150px;
   margin-top: 20px;
 `;
 const App_logo = styled.img`
-  width: 600px;
-  height: 250px;
+  width: 350px;
+  height: 450px;
+  margin-left: 20%; 
+  margin-top: -25%;
 `;
 const App_logo_container = styled.div`
   margin: 160px 0 0 150px;
@@ -105,7 +106,7 @@ const Line1 = styled.div`
   left: -6rem;
   position: absolute;
   width: 500px;
-  height: 350px;
+  
   border: 4px solid rgb(12, 64, 124);
   border-radius: 50%;
 `;
@@ -113,7 +114,7 @@ const Line2 = styled.div`
   position: absolute;
   overflow: hidden;
   width: 450px;
-  height: 350px;
+  
   border: 4px solid rgb(12, 64, 124);
   border-radius: 50%;
   right: -6.5rem;
@@ -121,11 +122,11 @@ const Line2 = styled.div`
   opacity: 0.8;
 `;
 const Comment = styled.p`
-  margin: auto;
+  margin-left: 35%;
   max-width: 380px;
   text-align: center;
   font-size: 1.4rem;
-  color: rgb(9, 49, 95);
+  color: #005AAB;
   transition: all 0.3s ease;
   font-weight: bold;
   opacity: 0.6;
@@ -136,11 +137,11 @@ const Comment = styled.p`
   }
 `;
 const Comment1 = styled.p`
-  margin: auto;
+  margin-left: 60%;
   max-width: 380px;
   text-align: center;
   font-size: 1.4rem;
-  color: rgb(9, 49, 95);
+  color: #005AAB;
   transition: all 0.3s ease;
   font-weight: bold;
   opacity: 0.6;
@@ -151,11 +152,11 @@ const Comment1 = styled.p`
   }
 `;
 const Comment2 = styled.p`
-  margin: auto;
+  margin-left: 35%;
   max-width: 380px;
   text-align: center;
-  font-size: 1.4rem;
-  color: rgb(9, 49, 95);
+  font-size: 1.6rem;
+  color: #005AAB;
   transition: all 0.3s ease;
   font-weight: bold;
   opacity: 0.6;
@@ -222,9 +223,8 @@ class Login extends Component {
           <Container>
             <App_logo_container>
               <App_logo src={AppLogo} />
-              <Comment>Hệ thống hỗ trợ quản lý sinh viên Classe369</Comment>
-              <Comment1>Xây dựng và phát triển bởi N3-INT3306_22</Comment1>
-              <Comment2>Trường Đại học Công nghệ - ĐHQGHN</Comment2>
+              <Comment>Hệ thống quản lý sinh viên BKHT</Comment>
+              <Comment2>Trường Đại học Ngoại Ngữ và Tin Học</Comment2>
             </App_logo_container>
             <Form_container>
               <Form action='' method='post' onSubmit={this.submit}>

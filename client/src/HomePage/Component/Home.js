@@ -11,43 +11,96 @@ export default class Home extends Component {
       <div id='main'>
         <div className='homepage'>
           <p className='elements' id='title'>
-            Classe<span id='student'>369</span>
+            BHKT <span id='student'>   </span>
           </p>
           <hr className='elements' id='homehr' />
           <div className='introduction'>
             <h1 className='manage'>
-              Mọi thứ
-              <div id='_manage'>cần thiết cho việc</div> quản lí sinh viên
+              Thông báo chung
             </h1>
-            <div className='manage_1'>
-              <img
-                src={logo}
-                width='300rem'
-                height='200rem'
-                style={{ marginTop: "-8rem", marginRight: "7rem" }}
-              />
-            </div>
-            <p id='_intro1'>
-              Classe369 là 1 phần mềm tiện ích giúp quản lý sinh viên một cách
-              ngắn gọn và đầy đủ nhất thông qua những thống kê xác thực nhất và
-              nhanh nhất
-            </p>
-            <img className='homewallpaper' src={home} />
-            <div className='footer1'>
-              <br />
-              <p id='_footer2'>
-                Hàng ngàn tổ chức giáo dục ngày nay sử dụng hệ thống quản lý
-                trường học phân mảnh và nền tảng phần mềm để quản lý các hoạt
-                động hành chính và học tập của họ. Classe369 cung cấp một giải
-                pháp hợp nhất tất cả trong một nền tảng đơn giản và đẹp mắt.
-              </p>
-            </div>
+            <div class="notification-list">
+        <div class="notification-item">
+            <span class="icon">🔔</span>
+            <a href="#">Thông báo về việc lấy ý kiến phản hồi từ người học về hoạt động giảng dạy của giảng viên HKI, Năm học 2024 - 2025</a>
+            <span class="label news">News</span>
+            <span class="date">ngày đăng 21/10/2024</span>
+        </div>
 
+        <div class="notification-item">
+            <span class="icon">🔔</span>
+            <a href="#">THÔNG BÁO VỀ VIỆC KHẢO SÁT TÂN SINH VIÊN KHÓA 2024</a>
+            <span class="label news">News</span>
+            <span class="date">ngày đăng 21/10/2024</span>
+        </div>
+
+        <div class="notification-item">
+            <span class="icon">🔔</span>
+            <a href="#">Thông báo về việc tham gia Bảo hiểm Y tế, Bảo hiểm tai nạn đối với sinh viên năm 2, 3, 4. Năm học 2024 – 2025</a>
+            <span class="label update">News</span>
+            <span class="date">ngày đăng 15/10/2024</span>
+        </div>
+        <div class="notification-item">
+            <span class="icon">🔔</span>
+            <a href="#">Thông báo về việc tổ chức Lễ Tốt nghiệp đợt 2 năm 2024</a>
+            <span class="label news">News</span>
+            <span class="date">ngày đăng 04/10/2024</span>
+        </div>
+
+        <div class="notification-item">
+            <span class="icon">🔔</span>
+            <a href="#">Giải thích tình trạng một số SV năm 1 khóa 2024 bị nợ học phí khi đăng nhập vào cổng thông tin Portal</a>
+            <span class="label news">News</span>
+            <span class="date">ngày đăng 04/10/2024</span>
+        </div>
+
+        <div class="notification-item">
+            <span class="icon">🔔</span>
+            <a href="#">Thông báo về việc khảo sát SV tốt nghiệp đợt 2 năm 2024 về chất lượng khóa học</a>
+            <span class="label news">News</span>
+            <span class="date">ngày đăng 02/10/2024</span>
+        </div>
+
+        <div class="notification-item">
+            <span class="icon">🔔</span>
+            <a href="#">ĐĂNG KÝ THAY ĐỔI NƠI KHÁM CHỮA BỆNH QUÝ IV NĂM 2024</a>
+            <span class="label news">News</span>
+            <span class="date">ngày đăng 24/09/2024</span>
+        </div>
+        <div class="notification-item">
+          <span class="icon">🔔</span>
+          <a href="#">Thông báo về lịch sinh hoạt của Ban chủ nhiệm khoa với Tân sinh viên Khóa 30 – 2024</a>
+          <span class="label news">News</span>
+          <span class="date">ngày đăng 16/09/2024</span>
+      </div>
+
+              <div class="notification-item">
+                  <span class="icon">🔔</span>
+                  <a href="#">Thông báo về việc thay đổi phòng học môn Yoga - Giáo dục thể chất từ ngày 13/9/2024</a>
+                  <span class="label news">News</span>
+                  <span class="date">ngày đăng 12/09/2024</span>
+              </div>
+
+              <div class="notification-item">
+                  <span class="icon">🔔</span>
+                  <a href="#">Thông báo về danh sách sinh viên tốt nghiệp đợt 2 năm 2024</a>
+                  <span class="label news">News</span>
+                  <span class="date">ngày đăng 12/09/2024</span>
+              </div>
+
+              <div class="notification-item">
+                  <span class="icon">🔔</span>
+                  <a href="#">Thông báo về trang phục học tập môn Giáo dục thể chất học kỳ 1 năm học 2024-2025</a>
+                  <span class="label news">News</span>                
+                  <span class="date">ngày đăng 12/09/2024</span>
+              </div>
+
+        
+        </div>
             {/* FOOTER CHUC NANG */}
 
             <div className='footer2'>
               <hr className='elements' id='homehr' />
-              <h1 id='_footer1'>Các tính năng của Classe369</h1>
+              <h1 id='_footer1'></h1>
 
               <div className='footer_icons'>
                 <span className='fa fa-comment-dots'></span>

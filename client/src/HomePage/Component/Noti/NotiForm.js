@@ -21,7 +21,7 @@ const Upd_site = styled.div`
   display: flex;
 `;
 const Noti_add = styled.textarea`
-  border: 1px solid #0b5592;
+  border: 1px solid #005AAB;
   min-height: 6.5rem;
   box-sizing: border-box;
   width: 85%;
@@ -34,7 +34,7 @@ const Noti_add = styled.textarea`
 `;
 
 const Add_btn = styled.button`
-  width: 15%;
+  width: 25%;
   background-color: #117ed8;
   border: none;
   color: white;

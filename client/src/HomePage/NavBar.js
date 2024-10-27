@@ -246,7 +246,7 @@ class NavBar extends Component {
                 <Link to='/home/profile'>
                   <div className='icon'>
                     <span className='fa fa-id-card'></span>{" "}
-                  </div>
+                  </div>A
                   <span className='links_name'>Hồ sơ</span>
 
                   <span className='tooltip'>Hồ sơ</span>

@@ -8,7 +8,7 @@ import axios from "axios";
 const Noti_Form = styled.div`
   width: 50%;
   margin: auto;
-  background-color: rgb(190, 185, 185);
+  background-color: #E6E6E6;
   min-height: 50vh;
   padding: 30px 0 30px 0;
   margin-top: 5vh;
@@ -25,7 +25,7 @@ const Noti_title = styled.h1`
   font-size: 5rem;
   text-align: center;
   font-weight: bold;
-  color: #0b5592;
+  color: #005AAB;
 `;
 
 function TodoList(props) {

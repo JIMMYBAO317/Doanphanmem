@@ -11,43 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-/* .ce-my-message-bubble {
-  background-image: linear-gradient(to bottom right, #0c67b3, black) !important;
-
-}
-.ce-their-message-bubble {
-  background-image: linear-gradient(to bottom right, white, darksalmon) !important;
-
-} */
-
-/* .ce-chats-container {
-  background-color:lightblue !important;
-} */
-/* .ce-settings {
-  background-color: #ff6f61 !important;
-} */
-/* .ce-chat-form-container {
-  background-color: lightblue !important;
-} */
-/* .ce-chat-card {
-  background-color: #ff6f61;
-} */
-/* .ql-editor:hover {
-  background-color: lightgrey !important;
-} */
-/* .ql-toolbar {
-  background-image: linear-gradient(to bottom right, blue, darksalmon) !important;
-} */
-/* .ce-chat-title-container {
-  background-image: linear-gradient(to bottom right, blue, yellow) !important;
-} */
 .ce-chat-card {
   margin-bottom: 0.5rem;
   border-radius: 1rem;
 }
 .ce-active-chat-card {
-  background-color: rgb(20, 72, 121) !important;
+  background-color: #005AAB !important;
   box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2),
     6px 6px 20px 10px rgba(0, 0, 0, 0.19);
   color: white !important;
@@ -64,24 +33,24 @@ code {
   background-color: rgb(213, 220, 233) !important;
 }
 #new-chat-plus-button.ce-primary-button {
-  background-color: rgb(20, 72, 121) !important;
+  background-color: #005AAB !important;
 }
 .ce-chat-title-container {
   background-color: rgba(213, 220, 233, 0.637) !important;
-  color: rgb(20, 72, 121) !important;
+  color: 005AAB !important;
 }
 .ql-editor {
   background-color: rgba(213, 220, 233, 0.726) !important;
 }
 .ce-message-bubble.ce-my-message-bubble {
-  background-color: rgb(20, 72, 121) !important;
+  background-color: #005AAB !important;
 }
 #ce-send-message-button {
-  background-color: rgb(20, 72, 121) !important;
+  background-color:#005AAB !important;
 }
 .ce-input.ce-text-input {
   background-color: rgb(213, 220, 233);
-  color: rgb(20, 72, 121);
+  color: 005AAB;
 }
 
 /* .ce-chat-form-container div {
